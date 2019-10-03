@@ -11,6 +11,7 @@ public class Main {
             int num;
             num = inputNum.nextInt();
             arr[i] = num;
+            inputNum.close();
         }
         for (int i = 0; i <= 3; i++) {
             int j = i + 1;
