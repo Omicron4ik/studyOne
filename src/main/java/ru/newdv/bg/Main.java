@@ -1,6 +1,8 @@
-import java.util.Scanner;
-public class Main {
+package ru.newdv.bg;
 
+import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
         int [] arr =  new int [4];
 
@@ -11,7 +13,6 @@ public class Main {
             int num;
             num = inputNum.nextInt();
             arr[i] = num;
-            inputNum.close();
         }
         for (int i = 0; i <= 3; i++) {
             int j = i + 1;
@@ -25,14 +26,3 @@ public class Main {
         System.out.println("Well done!");
     }
 }
-
-// input and output
-//        System.out.println("enter pls any num from 1 to 1000!");
-//        Scanner inputNum = new Scanner(System.in);
-//        Integer num;
-//        num = inputNum.nextInt();
-//        if (num > 100) {
-//            System.out.println("input num is MORE than 100, it is '" + num + "'");
-//        } else if (num < 100) {
-//            System.out.println("input num is LESS than 100, it is '" + num + "'");
-//        } else System.out.println("input num is 100");
