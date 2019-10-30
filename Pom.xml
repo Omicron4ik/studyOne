@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>radionov</groupId>
+    <groupId>ru.radionov</groupId>
     <artifactId>FirstProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 </project>
