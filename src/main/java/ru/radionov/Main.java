@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static String readOneStringFromUser (int j) {
-        System.out.println("enter pls " + j  + " NUMBER");
+        System.out.println("enter pls " + j  + "any POSTITVE NUMBER");
         Scanner inputNum = new Scanner(System.in);
         return inputNum.next();
     }
@@ -19,7 +19,7 @@ public class Main {
                 int num = Integer.parseInt(inputStr);
                 arr[i] = num;
             } else {
-                System.out.println("OLOLO it's not a NUMBER, set '0'");
+                System.out.println("OLOLO it's not a positive NUMBER, set '0'");
             }
         }
         return arr;
